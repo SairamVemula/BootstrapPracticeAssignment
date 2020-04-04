@@ -1,123 +1,150 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Montserrat";
 }
-html,body{
+
+html,
+body {
     width: 100%;
     height: 100%;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
-.h1,.h2,.h3,.h4,.h5,.h6{
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
     margin: 0 !important;
     padding: 0;
 }
-.row{
+
+.row {
     margin: 0;
 }
-.header .col{
+
+.header .col {
     padding: 0;
 }
-.header img{
+
+.header img {
     float: left;
 }
-.header div{
+
+.header div {
     margin: auto;
 }
+
 .header div[class*=anchor] {
-    margin:auto 1rem;
+    margin: auto 1rem;
     float: right;
 }
-.anchor-1 svg{
+
+.anchor-1 svg {
     font-size: 1.6rem;
 }
 
-.second{
-    background-image: url("../img/maxresdefault.jpg"); 
-    background-position: center; 
-    background-repeat: no-repeat; 
+.second {
+    background-image: url("../img/maxresdefault.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
 }
-.second .second-text{
+
+.second .second-text {
     position: relative;
     margin-left: 12vw;
-    
+
 }
-.second .second-text div{
+
+.second .second-text div {
     position: relative;
     font-family: 'Bebas Neue', cursive;
 }
-.h3{
+
+.h3 {
     left: 5rem;
     top: 1.4rem;
 }
-.h1{
-    
+
+.h1 {
+
     color: red;
 }
+
 h1 {
     font-size: 60px;
 }
-h3{
+
+h3 {
     font-size: 40px;
 }
-.h1-p{
+
+.h1-p {
     left: 3rem;
     bottom: 1.6rem;
 }
 
-.sometext{
+.sometext {
     display: flex;
     padding: 0;
     max-width: 100%;
     overflow: hidden;
 }
-div{
+
+div {
     max-width: 100%;
     margin: auto;
     padding: auto;
 }
-.sometext .sometext-data{
+
+.sometext .sometext-data {
     margin: 0;
     flex: 1;
 }
-.sometext .sometext-img{
+
+.sometext .sometext-img {
     margin: 0;
     flex: 2;
     object-fit: cover;
 }
-h1.for-font{
+
+h1.for-font {
     font-family: 'Bebas Neue', cursive;
     color: red;
     font-size: 2rem;
 }
-.sometext p{
+
+.sometext p {
     font-size: 1rem;
     font-weight: 600;
 }
 
 
 
-.toolbar-content{
+.toolbar-content {
     padding: 1.2rem;
 }
-.toolbar-content .row{
+
+.toolbar-content .row {
     padding: .2rem auto;
     background-color: black;
     border-radius: .3rem;
     padding: 1rem;
 }
-.toolbar-content .list{
+
+.toolbar-content .list {
     position: relative;
     display: flex;
     margin: 0auto;
     padding: .4rem .5rem;
     min-width: 100px;
-    color:white;
+    color: white;
     background-color: black;
     color: white;
     min-width: 10rem;
@@ -126,42 +153,50 @@ h1.for-font{
     font-size: .8rem;
 
 }
-.list p{
+
+.list p {
     margin: 0 0rem 0 0;
 }
-.list svg{
+
+.list svg {
     position: absolute;
     right: 5px;
 }
-.pos{
+
+.pos {
     display: flex;
     padding: .5rem;
     align-items: center;
     justify-content: center;
 }
-.search-bars{
+
+.search-bars {
     background-color: white;
     border-radius: .2rem;
     padding: .2rem;
 }
-input::placeholder{
+
+input::placeholder {
     font-size: .9rem;
     padding-left: 6px;
 }
-.search-bars input.search-3{
+
+.search-bars input.search-3 {
     max-width: 8.3rem;
     border: none;
 }
-.search-bars input.search-2{
+
+.search-bars input.search-2 {
     max-width: 3rem;
     border: none;
 }
-.search-bars input.search-1{
+
+.search-bars input.search-1 {
     max-width: 5rem;
     border: none;
 }
 
-.toolbar-content img{
+.toolbar-content img {
     width: 18px;
     height: 18px;
 }
@@ -185,11 +220,12 @@ input::placeholder{
     font-size: .7rem;
 
 } */
-.setting{
+.setting {
     padding: 0;
     top: 1px;
 }
-.setting-icon{
+
+.setting-icon {
     position: relative;
     float: right;
     overflow: hidden;
@@ -205,45 +241,54 @@ input::placeholder{
     border-radius: 4px;
 }
 
-.card-contain{
+.card-contain {
     background-color: white;
 }
-.card-contain div[class*=col-] h1,h2,p{
+
+.card-contain div[class*=col-] h1,
+h2,
+p {
     padding: 0;
     margin: 0;
 }
-.card-contain h1{
+
+.card-contain h1 {
     font-size: 1.5rem;
 }
-.card-contain h2{
+
+.card-contain h2 {
     font-size: 1rem;
 }
 }
-.card-contain i{
+
+.card-contain i {
     right: 10px;
     font-size: 2rem;
 }
 
-.card-contain .col-5{
+.card-contain .col-5 {
     object-fit: contain;
 }
 
 
 
-.footer{
+.footer {
     border-top: 10px solid red;
     padding: 0;
 }
-.footer-main{
+
+.footer-main {
     background-color: black;
     width: 100%;
-    
+
     padding: 40px
 }
-.footer-main .col{
+
+.footer-main .col {
     padding: 20px
 }
-.footer-main a{
+
+.footer-main a {
     font-size: 12px;
     text-align: center;
     margin: 20px;
@@ -254,71 +299,89 @@ input::placeholder{
 
 
 
-@media  only screen and (max-width: 992px){
-    .sometext .sometext-data{
+@media only screen and (max-width: 992px) {
+    .sometext .sometext-data {
         order: 2;
         flex: none;
     }
-    .sometext .sometext-img{
+
+    .sometext .sometext-img {
         order: 1;
         flex: none;
-    }  
+    }
 }
 
 /***************MOBILE***************/
-@media  only screen and (max-width: 576px){
+@media only screen and (max-width: 576px) {
 
-    body{
+    body {
         width: 100%;
     }
-    .anchor-2,.anchor-3{
+
+    .anchor-2,
+    .anchor-3 {
         display: none;
     }
-    .sometext .sometext-data{
+
+    .sometext .sometext-data {
         flex: none;
     }
-    .sometext img{
+
+    .sometext img {
         width: 100%;
     }
-    .sometext p{
+
+    .sometext p {
         font-size: .8rem;
     }
-    .sometext h1{
+
+    .sometext h1 {
         font-size: 1.2rem;
     }
-    .toolbar-content{
+
+    .toolbar-content {
         background-color: black;
         padding: 1.2rem;
     }
-    .toolbar-content .row{
+
+    .toolbar-content .row {
         padding: 0;
     }
-    .pos .list,.pos .search-bars{
+
+    .pos .list,
+    .pos .search-bars {
         margin: .5rem;
     }
-    .pos{
+
+    .pos {
         padding: 0;
     }
-    .list{
-        padding: .3rem .4rem ;
+
+    .list {
+        padding: .3rem .4rem;
     }
-    input::placeholder{
+
+    input::placeholder {
         font-size: .8rem;
         padding-left: 4px;
     }
-    .toolbar-content img{
+
+    .toolbar-content img {
         width: 14px;
         height: 14px;
     }
-    .search-bars input.search-3{
+
+    .search-bars input.search-3 {
         max-width: 7rem;
         border: none;
     }
-    .search-bars input.search-2{
+
+    .search-bars input.search-2 {
         max-width: 2.4rem;
         border: none;
     }
-    .search-bars input.search-1{
+
+    .search-bars input.search-1 {
         max-width: 4.2rem;
         border: none;
     }
